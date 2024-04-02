@@ -1,0 +1,40 @@
+.investor-info-container {
+    margin: 20px;
+  }
+  
+  .investor-info-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    width: auto;
+  }
+  
+  .investor-table-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .investor-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .investor-table th,
+  .investor-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .investor-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .investor-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .investor-table tr:hover {
+    background-color: #ddd;
+  }
+  

@@ -1,0 +1,46 @@
+.manage-project-container {
+    margin: 20px;
+  }
+  
+  .manage-project-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .project-table th,
+  .project-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .project-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .project-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .project-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .action-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .action-button:hover {
+    background-color: #d32f2f;
+  }
+  

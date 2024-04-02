@@ -1,0 +1,25 @@
+.payment-table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .payment-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .payment-table th,
+  .payment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: rgba(242, 242, 242, 0.7);
+  }
+  
+  .payment-table th {
+    background-color: rgba(242, 242, 242, 0.7);  }
+  
+  .payment-table tbody tr{
+    background-color: rgba(242, 242, 242, 0.7);  }
+ 
+  

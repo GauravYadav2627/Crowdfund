@@ -1,0 +1,51 @@
+.project-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3); 
+  }
+  
+  .project-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .project-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .project-form label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .project-form input,
+  .project-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .project-form textarea {
+    resize: none;
+  }
+  
+  .project-form p {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .project-form button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

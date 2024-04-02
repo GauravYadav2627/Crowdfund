@@ -1,0 +1,32 @@
+
+
+.login-box {
+    width: 300px; 
+    height: 250px;
+    margin: 120px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(255, 255, 255, 0.2);
+    
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0 auto;
+    font-family: 'Comic Sans MS', cursive; 
+    color: #060408; 
+    text-shadow: 2px 2px 4px #c4bdbd; 
+    animation: wiggle 1s infinite; 
+  }
+  label {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+  button[type="submit"] {
+    display: block; 
+    padding: 10px; 
+    margin-top: 10px; 
+    align-content: center;
+  }
+  

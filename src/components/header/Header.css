@@ -1,0 +1,30 @@
+nav {
+    background-color: rgba(62, 65, 64, 0.7);
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+  }
+  
+  a:hover {
+    background-color: rgba(4, 4, 5, 0.97);
+    border-radius: 5px;  }
+  

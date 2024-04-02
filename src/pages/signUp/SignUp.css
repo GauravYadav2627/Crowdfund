@@ -1,0 +1,33 @@
+.signUp-box {
+    width: 500px; 
+    height: auto ;
+    margin: 50px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(255, 255, 255, 0.2);
+    
+  }
+  
+  .name-fields {
+    display: flex;
+    justify-content:space-evenly;
+    
+  }
+  
+  .email-field,
+  .password-fields {
+    margin-top: 10px; 
+  }
+  
+  .password-fields{
+
+    width: calc(40% - 5px); 
+    display: inline-block;
+  }
+  
+  .password-fields label {
+    display: block; 
+  }
+  
