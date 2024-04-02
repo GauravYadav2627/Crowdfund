@@ -50,7 +50,7 @@ const Header = () => {
     <nav>
       <ul>
         {userRole
-          ? userRole === "admin"
+          ? userRole === "user"
             ? renderLinks(adminLinks)
             : renderLinks(userLinks)
           : renderLinks(publicLinks)
